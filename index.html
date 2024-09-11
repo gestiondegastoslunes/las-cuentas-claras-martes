@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAS CUENTAS CLARAS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header></header>
+<H1>CUENTAS CLARAS</H1>
+    <img  center src="IMG/banner.PNG" alt="Banner de la plataforma">
+</header>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="">ACERCA DE</a></li>
+        </ul>
+    </nav>
+    <div class=""></div>
+    Gestiona tus gastos de manera inteligente con nuestras herramientas diseñadas para ayudarte a tener el control total de tus finanzas. Desde la planificación de presupuestos hasta el seguimiento de tus gastos diarios, te ofrecemos soluciones que te permitirán ahorrar más y gastar mejor.
+    </div>
+
+    <nav>
+        <ul>
+            <li>Seguimiento en tiempo real: Visualiza y clasifica tus gastos de manera automática para entender en qué estás gastando.</li>
+            <li> Presupuestos personalizados: Establece límites de gasto mensuales por categoría y recibe alertas cuando estés cerca de alcanzarlos.</li>
+            <li>
+                Análisis detallado: Obtén reportes visuales y gráficos que te ayudarán a identificar patrones de consumo y oportunidades de ahorro.
+            </li>
+            <li>Sincronización fácil: Conecta tus cuentas bancarias y tarjetas para llevar un control automatizado y preciso de tus finanzas.</li>
+
+
+        </ul>
+    </nav>
+
+    <div class="contenedor_todo">
+        <div class="caja_trasera">
+            <div class="caja_trasera_inicio">
+                <h3>¿Ya tienes una cuenta?</h3>
+                <p>Inicia sesion para ingresar a nuestra pagina</p>
+                <button > Iniciar sesion</button>
+
+            </div>
+            <div class="caja_trasera_registro">
+                <h3>¿aun no tienes una cuenta?</h3>
+                <p>Registrate para que puedas iniciar sesion</p>
+                <button > Registrarse</button>
+
+            </div>
+            
+
+        </div>
+        <div class="contenedor_inicio_registro">
+        <form action="" class="formulario_inicio">
+            <h2>Iniciar Sesion</h2>
+            <input placeholder="correo electronico">
+            <input placeholder="contraseña">
+            <button>Ingresar</button>
+        </form>  
+        <form action=""class="formulario_registro">
+            <h2>Registrarse</h2>
+            <input type="text" placeholder="Nombre completo">
+            <input type="text" placeholder="Correo electronico">
+            <input type="text" placeholder="Usuario">
+            <input type="password" placeholder="Contraseña">
+            <button>Registrarse</button>
+        </form>   
+
+    </div>
+</div>
+    
+        <h1>Registro de Gastos Diarios</h1>
+    
+    <main>
+        <section>
+            <h2>Registrar Gasto</h2>
+                <label >Fecha:</label>
+                <input type="date"  required>
+                <label>Categoría:</label>
+                <select name="categoria" required>
+                    <option value="alimentacion">Alimentación</option>
+                    <option value="transporte">Transporte</option>
+                    <option value="ocio">Ocio</option>
+                    <option value="otros">Otros</option>
+                </select>
+                <label for="monto">Monto:</label>
+                <input type="number" name="monto" required>
+                <label >Descripción:</label>
+                <input >Agregar Gasto"<input>
+            </form>
+        </section>
+        <section>
+            <h2>Gastos Registrados</h2>
+            <table id="gastos-lista">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Categoría</th>
+                        <th>Monto</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+              
+            </table>
+        </section>
+    </main>
+
+
+    
+</body>
+</html>
